@@ -14,6 +14,16 @@ sed -i 's/OpenWrt/YWRT/g' package/base-files/files/bin/config_generate
 echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
+
+echo 'src-git easytier https://github.com/EasyTier/luci-app-easytier' >>feeds.conf.default
+echo 'src-git SpeedTes https://github.com/sirpdboy/luci-app-NetSpeedTest' >>feeds.conf.default
+echo 'src-git turboacc https://github.com/chenmozhijin/turboacc' >>feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+
+
+
+
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
