@@ -5,30 +5,30 @@ on:
     inputs:
       owner:
         description: "openWRT 仓库的拥有者 (Owner of openWRT repo)"
-        type: string
+        输入: string
         required: true
-        default: "coolsnowwolf"
+        default: "openwrt"
       repo:
         description: "openWRT 仓库的名字 (Name of openWRT repo)"
-        type: string
+        输入: string
         required: true
-        default: "lede"
+        default: "openwrt"
       branch:
         description: "openWRT 仓库的分支 (Branch of openWRT repo)"
-        type: string
+        输入: string
         required: true
         default: "master"
       multithreading:
         description: "开启多线程编译 (Enable multithreading build)"
-        type: boolean
+        输入: boolean
         default: true
       ssh:
         description: "使用 ssh 连接到编译环境 (Connect to the build environment using ssh)"
-        type: boolean
-        default: false
+        输入: boolean
+        default: true
       isFiles:
         description: "使用files大法 (Whether to upload the etc files)"
-        type: boolean
+        输入: boolean
         default: false
 
 jobs:
